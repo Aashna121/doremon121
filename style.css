@@ -1,0 +1,49 @@
+body{
+  background-color:bisque; 
+}
+h1{
+    color: cyan;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px
+}
+img{
+    border:dashed 10px coral;
+}
+.abc{
+    display: flex;
+}
+#ad{
+    margin-left: 50px; 
+    margin-right: 50px;
+    text-align: justify;
+}
+#dorafly{
+    margin-left: 75px; 
+}
+#videos{
+    text-align: center;
+}
+.link{
+    margin-left: 30px;
+    
+}
+.link:hover{
+    background-color: aqua;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+        
+}
+.zoom{
+ transition:transform .2s;
+}
+.zoom:hover{
+    transform: scale(1.5)
+}
+.my_nav_bar{
+    position: sticky;
+    top: 0;
+}
